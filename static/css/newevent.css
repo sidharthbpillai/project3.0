@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    background :linear-gradient(to bottom, #4568dc, #b06ab3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.432);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    padding: 20px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10; 
+    margin: 50px auto;
+    max-width: fit-content;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.432);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 400px; 
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:rgba(204, 204, 204, 0.733);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px; 
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #1a1818;
+    margin-bottom: 20px;
+}
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000c4;
+    border-radius: 4px;
+}
+
+
+form button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    form {
+        max-width: 90%;
+    }
+}

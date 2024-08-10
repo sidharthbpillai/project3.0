@@ -1,0 +1,75 @@
+h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: cornflowerblue;
+    background: linear-gradient(to bottom, #4568dc, #b06ab3); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home{
+    background-color: black;
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+
+    
+}
+nav{
+    background-color:rgba(255,255,255,0.432);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.301);
+    border-radius: 20px;
+    padding: 20px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 20; 
+    margin: 50px auto;
+    max-width: fit-content;
+}
+
+
+nav a{
+    height: 50%;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    display: inline;
+    flex-direction: column;
+    justify-content:center;
+     
+}
+nav a:hover
+{
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 25px;
+    color: white;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.432);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+h3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#home button{
+    color: #116e57;
+    background-color: cornflowerblue;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+}
